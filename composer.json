@@ -1,0 +1,17 @@
+{
+    "name": "belajar/composer",
+    "description": "belajar composer",
+    "authors": [
+        {
+            "name": "Randi Oktaria Rinanda",
+            "email": "randioktaria96@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"app\\": "app/",
+			"Engine\\": "vendor/engine/"
+		} 
+	}
+}

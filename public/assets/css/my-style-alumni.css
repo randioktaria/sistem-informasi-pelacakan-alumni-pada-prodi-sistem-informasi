@@ -1,0 +1,56 @@
+body {
+	background-color: #dfe3ea;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #007bff 0%,#dfe3ea 100%);
+}
+
+.content {
+	background-image: linear-gradient(to bottom, #dfe3ea 0%, white 20%, white 80%, #dfe3ea 100%);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 45px;
+}
+
+.modal-content {
+	background-image: linear-gradient(to bottom, #007bff 0%, #dfe3ea 40%)
+}
+
+footer {
+	background-image: linear-gradient(to bottom,#dfe3ea 0%, #007bff 100%);
+}
+
+.btn-simpan {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.btn-simpan:hover {
+	color: #007bff;
+	background-color: #dfe3ea;
+	border-color: #007bff;
+}
+
+.tombol {
+	border-radius: 20px;
+}
+
+thead {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.form-control {
+	border-color: #007bff;
+}
+
+.bgprofil {
+	background-image: url('http://localhost/My Project/Project Skripsi/sisfo.tracer.alumni/public/image/bg/photo.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.list-group-item:hover {
+	box-shadow: 0px 5px 20px #ccc;
+}

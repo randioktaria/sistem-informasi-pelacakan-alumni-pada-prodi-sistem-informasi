@@ -1,0 +1,169 @@
+/* CSS HOME */
+
+
+/* HEADER */
+
+.header {
+    font-family: fantasy;
+    padding: 10px;
+    text-align: center;
+}
+
+.header img {
+    width: 80px;
+}
+
+.header h3 {
+    font-size: 25px;
+    opacity: .4;
+    text-transform: uppercase;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, .1);
+}
+
+.navbar-brand {
+    font-weight: 400;
+    font-family: fantasy;
+    opacity: .7;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron .container {
+    text-align: center;
+}
+
+.jumbotron .display-3 {
+    font-size: 43px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6)
+}
+
+.jumbotron .display-3 span {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.jumbotron p {
+    font-size: 18px;
+}
+
+/* content */
+
+#berita h4 {
+    font-size: 25px;
+}
+
+#pengumuman h4 {
+    font-size: 25px;
+}
+
+.content-header::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    border: 4px solid rgba(0, 0, 0, .1);
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0px 10px 20px #ccc;
+}
+
+.card:hover {
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, .6);
+	transition: .3s;
+}
+
+.card .card-body h5 {
+    font-size: 18px;
+}
+
+section {
+    padding-top: 60px;
+    margin-top: -70px;    
+}
+
+.btn-login {
+    width: 100px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn-login:hover {
+    margin-top: -3px;
+    margin-bottom: 3px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .6);
+}
+
+.btn-close {
+    background-color: #ccc;
+}
+
+/* TOMBAL */
+.tombol {
+    border-radius: 30px;
+}
+
+.sticky-footer {
+    background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    height: 100px;
+    line-height: 100px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) { 
+
+    /* NAVBAR */
+	.nav-link {
+        font-weight: 500;
+        margin-right: 15px;
+        text-transform: uppercase;
+    }
+
+    /* JUMBOTRON */
+    .jumbotron {
+        height: 300px;
+    }
+
+    .jumbotron .display-3 {
+        font-size: 62px;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6)
+    }
+    
+    .jumbotron .display-3 span {
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .jumbotron p {
+        font-size: 20px;
+    }
+
+    .content-header {
+        font-size: 30px;
+    }
+}
